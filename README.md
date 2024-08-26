@@ -4,7 +4,7 @@ This project is a simple e-commerce platform built with Next.js. It fetches prod
 
 ## Demo
 
-Check out the live demo of the project: [[FakeStore Demo](https://your-demo-url.com)](https://appscrip-task-assignment.netlify.app/)
+Check out the live demo of the project: https://appscrip-task-assignment.netlify.app
 
 
 ## API URL
