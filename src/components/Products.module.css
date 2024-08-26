@@ -171,8 +171,8 @@
     max-width: 56%;
     z-index: 31;
     justify-content: center;
-    font-size: 14px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 500;
     color: #000;
 }
 
@@ -198,10 +198,11 @@
 
 .activityCard img {
 
-    width: 100%;
+    width: 86%;
+    max-width: 230px;
     border-radius: 5px;
     height: 50%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 
