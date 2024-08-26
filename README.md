@@ -6,6 +6,10 @@ This project is a simple e-commerce platform built with Next.js. It fetches prod
 
 Check out the live demo of the project: https://appscrip-task-assignment.netlify.app
 
+## GitHub Repository
+
+You can find the source code for this project on GitHub: https://github.com/pritamkumarbishwas/Appscrip-task-pritam-kumar
+
 
 ## API URL
   https://fakestoreapi.com/
