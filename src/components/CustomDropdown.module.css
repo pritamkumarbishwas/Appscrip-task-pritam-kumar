@@ -1,7 +1,7 @@
 .dropdown {
     position: relative;
     display: block;
-    top:10px;
+    top: 10px;
 }
 
 .dropdownButton {
@@ -10,16 +10,15 @@
     cursor: pointer;
     text-align: left;
     border: none;
-    font-size:20px;
-    font-weight:700;
+    font-size: 14px;
+    font-weight: 500;
     width: 90%;
 }
 
 .dropdown span {
-   font-size: 14px;
-   font-weight:500;
-   float: right;
-   
+    font-size: 12px;
+    font-weight: 500;
+    float: right;
 }
 
 
@@ -42,4 +41,174 @@
 
 .dropdownContent label {
     cursor: pointer;
+}
+
+
+.filterContainer label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.filterContainer select {
+    padding: 0px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-position: center right;
+    background-repeat: no-repeat;
+    font-size: inherit;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.filterContainer select::after {
+    content: 'v';
+    /* Down arrow */
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #888792;
+    pointer-events: none;
+}
+
+.productList {
+    flex: 1;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.productItem {
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.new {
+    /* background: red; */
+    position: relative;
+    transform: translate(0%, 164%);
+    max-width: 56%;
+    z-index: 31;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.activityCard {
+    color: #000;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s all;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.activityCard img:hover {
+    -webkit-filter: brightness(80%);
+}
+
+.activityCard img {
+
+    width: 100%;
+    border-radius: 5px;
+    height: 50%;
+    object-fit: cover;
+}
+
+
+.activityCard .productName {
+    font-weight: 700;
+    font-size: 16px;
+    color: #252020;
+}
+
+.productName p {
+    margin: 10px 0;
+}
+
+.productDesc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.productDesc p {
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.productName .favirout {
+    width: 24px;
+    height: 24px;
+
+}
+
+.favirout {
+    cursor: pointer;
+    font-size: 18px;
+    color: #000;
+    /* border: 1px solid black;  */
+    border-radius: 50%;
+    padding: 8px;
+    transition: color 0.3s ease;
+}
+
+.solid {
+    color: red;
+}
+
+.mobileFilter {
+    cursor: pointer;
+    color: #333;
+    font-weight: 700;
+    position: relative;
+    border: none;
+    background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .dropdownButton {
+        background-color: #fff;
+        padding: 0px 0px 10px 0px;
+        cursor: pointer;
+        text-align: left;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+        width: 90%;
+    }
+
+    .dropdown span {
+        font-size: 18px;
+        font-weight: 500;
+        float: right;
+    }
+
 }
