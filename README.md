@@ -1,4 +1,4 @@
-# FakeStore - E-commerce Platform
+# Appscrip Assignment
 
 This project is a simple e-commerce platform built with Next.js. It fetches product data from a fake API and displays them on the homepage, where users can browse, view, sort, and filter different products.
 
