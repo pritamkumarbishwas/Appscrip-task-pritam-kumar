@@ -201,13 +201,13 @@
         text-align: left;
         border: none;
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 400;
         width: 90%;
     }
 
     .dropdown span {
         font-size: 18px;
-        font-weight: 500;
+        font-weight: 400;
         float: right;
     }
 
