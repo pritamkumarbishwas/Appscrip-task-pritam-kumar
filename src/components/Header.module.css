@@ -1,0 +1,246 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    background-color: #fff;
+    color: #333;
+}
+
+.logoContainer {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    width: 30px;
+    height: auto;
+}
+
+.logoText {
+    font-size: 36px;
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.navIcons {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navIcons li {
+    margin: 0 10px;
+}
+
+.navIcon {
+    font-size: 24px;
+    /* Adjust as needed */
+    color: #333;
+    /* Adjust as needed */
+}
+
+.eng {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.navIcons span {
+    font-size:14px;
+    font-weight:400;
+}
+
+
+
+
+
+@media (max-width: 1380px) {
+
+    .logoImage {
+        width: 40px;
+        padding-left: 10px;
+        height: auto;
+    }
+    .navIcons span {
+        font-size:14px;
+        font-weight:400;
+    }
+    
+
+}
+
+
+@media (max-width: 1180px) {
+
+    .logoImage {
+        width: 40px;
+        padding-left: 10px;
+        height: auto;
+    }
+
+    .navIcons span {
+        font-size:14px;
+        font-weight:400;
+    }
+    
+
+}
+
+
+
+@media (max-width: 1025px) {
+
+    .logoText {
+        font-size: 3rem;
+        margin-left: 10px;
+        font-weight: 800;
+    }
+
+    .navIcons li a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logoImage {
+        width: 40px;
+        padding-left: 10px;
+        height: auto;
+    }
+
+    .eng {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .navIcons span {
+        font-size:14px;
+        font-weight:400;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1024px) and (min-height: 600px) and (max-height: 600px) {
+    .logoText {
+        font-size: 3rem;
+        margin-left: 10px;
+        font-weight: 800;
+    }
+
+    .navIcons li a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logoImage {
+        width: 40px;
+        padding-left: 10px;
+        height: auto;
+    }
+
+    .eng {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .navIcons span {
+        font-size:14px;
+        font-weight:400;
+    }
+    
+}
+
+
+
+@media (max-width: 851px) {
+    .logoText {
+        font-size: 3rem;
+        margin-left: 10px;
+        font-weight: 800;
+    }
+
+    .navIcons li a img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .logoImage {
+        width: 40px;
+        padding-left: 10px;
+        height: auto;
+    }
+
+    .eng {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .navIcons span {
+        font-size:14px;
+        font-weight:400;
+    }
+    
+
+}
+
+@media (max-width: 768px) {
+    .header {
+        padding: 5px;
+    }
+
+    .logoText {
+        font-size: 2.0rem;
+        margin-left: 10px;
+        font-weight: 800;
+    }
+
+    .navIcons li a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navIcons .eng,
+    .user {
+        display: none;
+    }
+
+    .logoImage {
+        width: 40px;
+        padding-left: 10px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 5px;
+    }
+
+    .logoText {
+        font-size: 2.0rem;
+        margin-left: 10px;
+        font-weight: 800;
+    }
+
+    .navIcons li a img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navIcons .eng,
+    .user {
+        display: none;
+    }
+
+    .logoImage {
+        width: 40px;
+        padding-left: 10px;
+        height: auto;
+    }
+
+
+}
